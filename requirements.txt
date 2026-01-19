@@ -4,3 +4,10 @@ sqlalchemy==2.0.23  # DB connections
 psycopg2-binary==2.9.9  # Postgres driver
 dbt-postgres==1.8.1    # dbt adapter
 python-dotenv==1.0.0   # .env loading
+ultralytics==8.1.0  # YOLOv8
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.5.0
+dagster==1.7.0
+dagster-webserver==1.7.0
+dagster-dbt==0.5.0  # For dbt integration
