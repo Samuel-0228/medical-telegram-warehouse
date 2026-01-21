@@ -2,7 +2,7 @@
 
 ## Data Lake Structure
 - **Partitioning**: JSON files in `data/raw/telegram_messages/
-- **Images**: `data/raw/images/{channel_name}/{message_id}.jpg` for direct linking.
+
 - **Logs**: `logs/scraper_*.log` tracks errors/rates (e.g., 150 msgs scraped, 0 errors).
 - **Rationale**: Atomic, immutable raw zone for reproducibility; no transformations here.
 
